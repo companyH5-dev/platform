@@ -1,0 +1,19 @@
+{
+  "code": 10000,
+  "success": true,
+  "message": null,
+  "data": {
+    "userId": "df57d282-8fd5-11e8-a2d4-00163e0280a5",
+    "userName": "admin",
+    "email": "1167629152@qq.com",
+    "cellphone": "15957357777",
+    "name": null,
+    "code": null,
+    "country": null,
+    "address": null,
+    "userType": 0,
+    "orgType": 0,
+    "checkStatus": 0,
+    "token": "54B4C5F3F120D5ED011FC87A520D23BB"
+  }
+}
