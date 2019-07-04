@@ -41,18 +41,18 @@
   <div class="banner">
     <el-carousel trigger="click" height="690px">
       <el-carousel-item>
-        <li class="active"> <img src="@/assets/dashboard/banner.jpg" /></li>
+        <!-- <li class="active"> <img src="@/assets/dashboard/banner.jpg" /></li> -->
       </el-carousel-item>
 
       <el-carousel-item v-if="SelectLang == '中文简体'">
-        <li class="active"> <img src="@/assets/dashboard/banner1.jpg" /></li>
+        <!-- <li class="active"> <img src="@/assets/dashboard/banner1.jpg" /></li> -->
       </el-carousel-item>
       <!-- <el-carousel-item v-if="SelectLang == '中文简体'">
         <li class="active"> <img src="@/assets/dashboard/banner2.jpg" /></li>
       </el-carousel-item> -->
 
       <el-carousel-item v-if="SelectLang != '中文简体'">
-        <li class="active"> <img src="@/assets/dashboard/banner_e1.jpg" /></li>
+        <!-- <li class="active"> <img src="@/assets/dashboard/banner_e1.jpg" /></li> -->
       </el-carousel-item>
       <!-- <el-carousel-item v-if="SelectLang != '中文简体'">
         <li class="active"> <img src="@/assets/dashboard/banner_e2.jpg" /></li>

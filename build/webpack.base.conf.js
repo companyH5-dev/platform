@@ -27,9 +27,18 @@ module.exports = {
   ],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
+      'jquery': 'jquery',
       '@': resolve('src'),
     }
   },
+
+  // 增加一个plugins
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+    })
+  ],
   externals: {
     'BMap': 'BMap'
   },
