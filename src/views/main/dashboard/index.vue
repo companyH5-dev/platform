@@ -26,28 +26,28 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav">
                         <li class="page-scroll active">
-                            <a href="#intro">Home</a>
+                            <a href="#intro">主页</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#about">About</a>
+                            <a href="#about">新闻资讯</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#features">Features</a>
+                            <a href="#features">平台特色</a>
                         </li>
                         <li class="page-scroll">
-                            <a href="#team">Team</a>
+                            <a href="#team">团队</a>
                         </li>
-                        <li class="page-scroll">
+                        <!-- <li class="page-scroll">
                             <a href="#clients">Clients</a>
-                        </li>
+                        </li> -->
                         <li class="page-scroll">
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="#portfolio">科研项目</a>
                         </li>
-                        <li class="page-scroll">
+                        <!-- <li class="page-scroll">
                             <a href="#pricing">Pricing</a>
-                        </li>
+                        </li> -->
                         <li class="page-scroll">
-                            <a href="#contact">Contact</a>
+                            <a href="#contact">联系我们</a>
                         </li>
                     </ul>
                 </div>
@@ -78,7 +78,7 @@
                                 data-speed="900"
                                 data-start="1000"
                                 data-easing="easeOutExpo">
-                                <h3>The New Way</h3>
+                                <h3>纳米钛酸钡</h3>
                             </div>
                             <div class="caption lft tp-resizeme"
                                 data-x="center"
@@ -88,8 +88,9 @@
                                 data-speed="900"
                                 data-start="1500"
                                 data-easing="easeOutExpo">
-                                <p class="subtitle-v1">To Manage Your <br>
-                                Small to Enterprise Business</p>
+                                <p class="subtitle-v1">目前钛酸钡基材料<br>
+                            被广泛的应用动态随机储存器、电子滤波器、<br>
+                            谐振器、超声探测、温控传感器及高介电常数的电容器等</p>
                             </div>
                             <div class="caption lft tp-resizeme"
                                 data-x="center"
@@ -99,7 +100,7 @@
                                 data-speed="900"
                                 data-start="2000"
                                 data-easing="easeOutExpo">
-                                <a href="#" class="btn-brd-white">Learn More</a>
+                                <a href="#" class="btn-brd-white">了解更多</a>
                             </div>
                             <div class="caption lfb tp-resizeme"
                                 data-x="right"
@@ -108,7 +109,7 @@
                                 data-speed="900"
                                 data-start="2500"
                                 data-easing="easeOutExpo">
-                                <img src="@/assets/dashboard/men.png" alt="Image 3">
+                                <img src="@/assets/dashboard/index1.PNG" alt="Image 3">
                             </div>
                         </li>
                         <!-- THE NEW SLIDE -->
@@ -165,12 +166,69 @@
                                 data-speed="900"
                                 data-start="2000"
                                 data-easing="easeOutExpo">
-                                <img src="@/assets/dashboard/device.png" alt="Image 3">
+                                <img src="@/assets/dashboard/index2.PNG" alt="Image 3">
                             </div>
                         </li>
+
                         <!-- THE NEW SLIDE -->
                         <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
                             <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="@/assets/dashboard/bg_slider2.jpg" alt="">
+
+                            <div class="caption lft tp-resizeme"
+                                data-x="center"
+                                data-y="center"
+                                data-hoffset="-322"
+                                data-voffset="-30"
+                                data-speed="900"
+                                data-start="1000"
+                                data-easing="easeOutExpo">
+                                <h3 class="title-v2">Ultimate Apps <br>
+                                for Business</h3>
+                            </div>
+                            <div class="caption lft tp-resizeme"
+                                data-x="center"
+                                data-y="center"
+                                data-hoffset="-490"
+                                data-voffset="110"
+                                data-speed="900"
+                                data-start="1500"
+                                data-easing="easeOutExpo">
+                                <p class="subtitle-v2">Available in:</p>
+                            </div>
+                            <a href="#" class="caption lft tp-resizeme slide_thumb_img slide_border"
+                                data-x="center"
+                                data-y="center"
+                                data-hoffset="-370"
+                                data-voffset="102"
+                                data-speed="900"
+                                data-start="1500"
+                                data-easing="easeOutExpo">
+                                <img src="@/assets/dashboard/icon_android.png" alt="Image 1">
+                                |
+                            </a>
+                            <a href="#" class="caption lft tp-resizeme slide_thumb_img"
+                                data-x="center"
+                                data-y="center"
+                                data-hoffset="-318"
+                                data-voffset="102"
+                                data-speed="900"
+                                data-start="1500"
+                                data-easing="easeOutExpo">
+                                <img src="@/assets/dashboard/icon_ios.png" alt="Image 2">
+                            </a>
+                            <div class="caption lfb tp-resizeme"
+                                data-x="right"
+                                data-y="bottom"
+                                data-hoffset="100"
+                                data-speed="900"
+                                data-start="2000"
+                                data-easing="easeOutExpo">
+                                <img src="@/assets/dashboard/index3.PNG" alt="Image 3">
+                            </div>
+                        </li>
+                        <!-- THE NEW SLIDE -->
+                        <!-- <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
                             <img src="@/assets/dashboard/blank.png" alt="">
 
                             <div class="caption fulllscreenvideo tp-videolayer"
@@ -224,7 +282,7 @@
                                 data-easing="easeOutExpo">
                                 <a href="#" class="btn-brd-white">Learn More</a>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -240,19 +298,19 @@
             <div class="container">
                 <div class="subscribe-wrap">
                     <div class="subscribe-body subscribe-desc md-margin-bottom-30">
-                        <h1>Signup for free</h1>
+                        <h1>免费注册</h1>
                         <p>To try the most advanced business platform for mobile and desktop</p>
                     </div>
                     <div class="subscribe-body">
                         <form class="form-wrap input-field">
                             <div class="form-wrap-group">
-                                <input type="name" class="form-control" id="name" placeholder="Name">
+                                <input type="name" class="form-control" id="name" placeholder="用户名">
                             </div>
                             <div class="form-wrap-group border-left-transparent">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
                             </div>
                             <div class="form-wrap-group">
-                                <button type="submit" class="btn-danger btn-md btn-block">Signup</button>
+                                <button type="submit" class="btn-danger btn-md btn-block">登录</button>
                             </div>
                         </form>
                     </div>
