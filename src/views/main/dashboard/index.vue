@@ -35,7 +35,10 @@
                             <a href="#clients">Clients</a>
                         </li> -->
             <li class="page-scroll">
-              <a href="#portfolio">科研项目</a>
+              <a href="#portfolio">选项目</a>
+            </li>
+            <li class="page-scroll">
+              <a href="#zijin">找资金</a>
             </li>
             <li class="page-scroll">
               <a href="#about">新闻资讯</a>
@@ -74,9 +77,9 @@
                 <h3>纳米钛酸钡</h3>
               </div>
               <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-285" data-voffset="55" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <p class="subtitle-v1">目前钛酸钡基材料<br>
-                  被广泛的应用动态随机储存器、电子滤波器、<br>
-                  谐振器、超声探测、温控传感器及高介电常数的电容器等</p>
+                <p class="subtitle-v1">目前钛酸钡基材料<br> 被广泛的应用动态随机储存器、电子滤波器、
+                  <br> 谐振器、超声探测、温控传感器及高介电常数的电容器等
+                </p>
               </div>
               <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-500" data-voffset="140" data-speed="900" data-start="2000" data-easing="easeOutExpo">
                 <a href="#" class="btn-brd-white">了解更多</a>
@@ -161,8 +164,8 @@
               <div class="form-wrap-group">
                 <button type="submit" @click="cfm_msg" class="btn-danger btn-md btn-block">登录</button>
               </div>
-              <div class="form-wrap-group" >
-                  <button type="submit" @click="cfm_msg" class="btn-danger btn-md btn-block" style="margin-left: 20px;width: 62px;background: #2bad3b;border: 2px solid #2bad3b">注册</button>
+              <div class="form-wrap-group">
+                <button type="submit" @click="cfm_msg" class="btn-danger btn-md btn-block" style="margin-left: 20px;width: 62px;background: #2bad3b;border: 2px solid #2bad3b">注册</button>
               </div>
             </form>
           </div>
@@ -179,10 +182,11 @@
         <div class="container">
           <div class="heading">
             <h2>平台<strong>简介</strong></h2>
-            <p style=" padding: 0 160px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从一个全新的角度出发，打造科研互联网平台，为高校内的优势技术急需产业化<br>提供资金的支持，同时也解决了投资机构找项目难的问题。
-              项目-资金，快速达成合作意向的优秀互联网平台，<br>将科研产业化变得高效、清晰、明了。
+            <p style=" padding: 0 160px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从一个全新的角度出发，打造科研互联网平台，为高校内的优势技术急需产业化<br>提供资金的支持，同时也解决了投资机构找项目难的问题。 项目-资金，快速达成合作意向的优秀互联网平台，
+              <br>将科研产业化变得高效、清晰、明了。
             </p>
-          </div><!-- //end heading -->
+          </div>
+          <!-- //end heading -->
 
           <!-- Features -->
           <div class="row margin-bottom-70">
@@ -204,7 +208,8 @@
                 </div>
               </div>
             </div>
-          </div><!-- //end row -->
+          </div>
+          <!-- //end row -->
           <div class="row margin-bottom-80">
             <div class="col-md-6 md-margin-bottom-70">
               <div class="features">
@@ -224,7 +229,8 @@
                 </div>
               </div>
             </div>
-          </div><!-- //end row -->
+          </div>
+          <!-- //end row -->
           <!-- End Features -->
 
           <center><a href="#" class="btn-brd-danger">Try it for free</a></center>
@@ -243,7 +249,8 @@
             <div class="heading-blue">
               <h2>Over <strong>30.000</strong> Customers</h2>
               <p>and let's see what are they saying</p>
-            </div><!-- //end heading -->
+            </div>
+            <!-- //end heading -->
 
             <!-- Owl Carousel -->
             <div class="owl-carousel">
@@ -380,18 +387,19 @@
         <div class="container">
           <div class="heading">
             <h2>特色 <strong>项目</strong></h2>
+            <P>To try the most advanced business platform <br> for mobile and desktop</P>
           </div>
 
           <div class="cube-portfolio">
             <div id="filters-container" class="cbp-l-filters-alignCenter">
               <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> 所有</div>
-              <div data-filter=".ecommerce" class="cbp-filter-item"> 化学分类1 </div>
-              <div data-filter=".admin" class="cbp-filter-item"> 化学分类2</div>
-              <div data-filter=".corporate" class="cbp-filter-item"> 化学分类3 </div>
-              <div data-filter=".retail" class="cbp-filter-item"> 化学分类4 </div>
+              <div data-filter=".ecommerce" class="cbp-filter-item"> 新能源 </div>
+              <div data-filter=".admin" class="cbp-filter-item"> 新材料</div>
+              <!-- <div data-filter=".corporate" class="cbp-filter-item"> 化学分类3 </div>
+              <div data-filter=".retail" class="cbp-filter-item"> 化学分类4 </div> -->
             </div>
             <div class="row">
-              <div class="col-md-5 md-margin-bottom-50">
+              <!-- <div class="col-md-5 md-margin-bottom-50">
                 <div class="heading-left">
                   <h2>
                     <strong>我们的职责</strong>
@@ -403,8 +411,8 @@
                   <p>近些年在新材料领域、各种原创技术贴合实际生产生活需要应运而生。如：锂电电极材料、陶瓷材料、合金材料、能源转化材料。</p><br>
                   <a href="#" class="btn-brd-primary">查看更多</a>
                 </div>
-              </div>
-              <div class="col-md-7">
+              </div> -->
+              <div class="col-md-12">
                 <!-- Cube Portfolio -->
                 <div id="grid-container" class="cbp-l-grid-agency">
                   <div class="cbp-item ecommerce">
@@ -471,7 +479,92 @@
               </div>
               <!-- End Cube Portfolio -->
             </div>
-          </div><!-- //end row -->
+          </div>
+          <!-- //end row -->
+        </div>
+      </div>
+    </section>
+    <!-- END PORTFOLIO SECTION -->
+    <!-- BEGIN PORTFOLIO SECTION -->
+    <section id="zijin">
+      <div class="portfolio">
+        <div class="container">
+          <div class="heading">
+            <h2>找 <strong>资金</strong></h2>
+            <P>To try the most advanced business platform <br> for mobile and desktop</P>
+          </div>
+
+          <div class="cube-portfolio">
+            <!-- <div id="filters-container" class="cbp-l-filters-alignCenter">
+              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> 所有</div>
+              <div data-filter=".ecommerce" class="cbp-filter-item"> 化学分类1 </div>
+              <div data-filter=".admin" class="cbp-filter-item"> 化学分类2</div>
+              <div data-filter=".corporate" class="cbp-filter-item"> 化学分类3 </div>
+              <div data-filter=".retail" class="cbp-filter-item"> 化学分类4 </div>
+            </div> -->
+            <div class="row">
+
+              <div class="col-md-12">
+                <!-- Cube Portfolio -->
+                <div id="grid-container" class="cbp-l-grid-agency">
+                  <div class="cbp-item ecommerce" style="width: 270px;left: 0px;top: 0px;">
+                    <div class="service-bg">
+                      <div class="services sm-margin-bottom-100">
+                        <div class="services-wrap">
+                          <div class="service-body">
+                            <img src="@/assets/dashboard/icon2.png" alt="">
+                          </div>
+                        </div>
+                        <h2>Created for all type Devices</h2>
+                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item admin" style="width: 270px;left: 0px;top: 0px;">
+                    <div class="service-bg">
+                      <div class="services sm-margin-bottom-100">
+                        <div class="services-wrap">
+                          <div class="service-body">
+                            <img src="@/assets/dashboard/icon2.png" alt="">
+                          </div>
+                        </div>
+                        <h2>Created for all type Devices</h2>
+                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item corporate" style="width: 270px;left: 0px;top: 0px;">
+                    <div class="service-bg">
+                      <div class="services sm-margin-bottom-100">
+                        <div class="services-wrap">
+                          <div class="service-body">
+                            <img src="@/assets/dashboard/icon3.png" alt="">
+                          </div>
+                        </div>
+                        <h2>Created for all type Devices</h2>
+                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item retail" style="width: 270px;left: 0px;top: 0px;">
+                    <div class="service-bg">
+                      <div class="services sm-margin-bottom-100">
+                        <div class="services-wrap">
+                          <div class="service-body">
+                            <img src="@/assets/dashboard/icon3.png" alt="">
+                          </div>
+                        </div>
+                        <h2>Created for all type Devices</h2>
+                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Cube Portfolio -->
+            </div>
+          </div>
+          <!-- //end row -->
         </div>
       </div>
     </section>
@@ -480,197 +573,13 @@
     <!-- BEGIN ABOUT SECTION -->
     <section id="about">
       <!-- Services BEGIN -->
-      <div class="container service-bg">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="services sm-margin-bottom-100">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon1.png" alt="">
-                </div>
-              </div>
-              <h2>Metronic is time saver</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="services sm-margin-bottom-100">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon2.png" alt="">
-                </div>
-              </div>
-              <h2>Created for all type Devices</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="services">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon3.png" alt="">
-                </div>
-              </div>
-              <h2>Great individual Design</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Services END -->
-    </section>
-    <!-- END ABOUT SECTION -->
-
-
-    <!-- BEGIN TEAM SECTION -->
-    <section id="team">
-      <!-- Team BEGIN -->
-      <div class="team-bg parallax">
-        <div class="container">
-          <div class="heading-light">
-            <h2>Our <strong>Great Team</strong></h2>
-          </div><!-- //end heading -->
-
-          <div class="row">
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member1.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>John Doe</h4>
-                        <span>Marketing</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member2.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Melisa Doe</h4>
-                        <span>Founder</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member3.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Alex Atkinson</h4>
-                        <span>Director</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- //end row -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member4.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>John Doe</h4>
-                        <span>Marketing</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member5.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Melisa Doe</h4>
-                        <span>Founder</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member6.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Alex Atkinson</h4>
-                        <span>Director</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- //end row -->
-            </div>
-            <div class="col-md-4">
-              <div class="team-about">
-                <h3>Built with bootstrap</h3>
-                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor suit elit amet nonummy nibh dolore onec placerat interdum purus.</p>
-                <div class="margin-bottom-40"></div>
-                <h3>AngularJS Support</h3>
-                <p>Etiam aliquam ex pulvinar odio dictum commodo. Nulla dui risus, egestas sit amet nisi et, eleifend cursus odio.</p>
-                <div class="margin-bottom-40"></div>
-                <h3>and WOW Features</h3>
-                <p>Donec placerat interdum purus, at finibus enim aliquam non. Etiam congue fringilla pharetra. Vestibulum facilisis lectus eros. Etiam congue fringilla pharetra. Lorem niam ipsum dolor sit ammet adipiscing e</p>
-              </div>
-            </div>
-          </div><!-- //end row -->
-        </div>
-      </div>
-      <!-- Team END -->
-    </section>
-    <!-- END TEAM SECTION -->
-
-
-
-
-
-    <!-- BEGIN PRICING SECTION -->
-    <section id="pricing">
       <div class="pricing-bg">
         <div class="container">
           <div class="heading">
-            <h2>Theme <strong>Pricing</strong></h2>
+            <h2>行业 <strong>资讯</strong></h2>
             <P>To try the most advanced business platform <br> for mobile and desktop</P>
-          </div><!-- //end heading -->
+          </div>
+          <!-- //end heading -->
 
           <!-- Pricing -->
           <div class="row no-space-row">
@@ -679,12 +588,6 @@
                 <img src="@/assets/dashboard/icon4.png" alt="">
                 <h4>Starter Plan</h4>
                 <span>$99 / Month</span>
-                <ul class="pricing-features">
-                  <li>1000 Copies</li>
-                  <li>Unlimited Data</li>
-                  <li>Unlimited Users</li>
-                  <li>Forst 7 days free</li>
-                </ul>
                 <button type="button" class="btn-brd-primary">Purchase</button>
               </div>
             </div>
@@ -693,12 +596,6 @@
                 <img src="@/assets/dashboard/icon5.png" alt="">
                 <h4>Business Plan</h4>
                 <span>$99 / Month</span>
-                <ul class="pricing-features">
-                  <li>1000 Copies</li>
-                  <li>Unlimited Data</li>
-                  <li>Unlimited Users</li>
-                  <li>Forst 7 days free</li>
-                </ul>
                 <button type="button" class="btn-brd-white">Purchase</button>
               </div>
             </div>
@@ -707,21 +604,18 @@
                 <img src="@/assets/dashboard/icon6.png" alt="">
                 <h4>Expert Plan</h4>
                 <span>$199 / Month</span>
-                <ul class="pricing-features">
-                  <li>1000 Copies</li>
-                  <li>Unlimited Data</li>
-                  <li>Unlimited Users</li>
-                  <li>Forst 7 days free</li>
-                </ul>
                 <button type="button" class="btn-brd-primary">Purchase</button>
               </div>
             </div>
-          </div><!-- //end row -->
+          </div>
+          <!-- //end row -->
           <!-- End Pricing -->
         </div>
       </div>
+      <!-- Services END -->
     </section>
-    <!-- END PRICING SECTION -->
+    <!-- END ABOUT SECTION -->
+
 
     <!-- BEGIN CONTACT SECTION -->
     <section id="contact">
@@ -751,7 +645,8 @@
               <textarea rows="8" name="message" placeholder="Write comment here ..." class="border-top-transparent form-control"></textarea>
               <button type="submit" class="btn-danger btn-md btn-block">Send it</button>
             </div>
-          </div><!-- //end row -->
+          </div>
+          <!-- //end row -->
         </div>
       </div>
       <!-- End Footer -->
@@ -902,7 +797,7 @@ export default {
     }
   },
   watch: {
-    '$i18n.locale'(to, from) {
+    '$i18n.locale' (to, from) {
       this.reload()
 
     }
