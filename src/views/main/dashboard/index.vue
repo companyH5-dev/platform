@@ -69,7 +69,7 @@
         <div class="banner">
           <ul id="revolutionul">
             <!-- THE NEW SLIDE -->
-            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
+            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="129400" data-thumb="">
               <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
               <img src="@/assets/dashboard/bg_slider1.jpg" alt="">
 
@@ -84,7 +84,7 @@
               <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-500" data-voffset="140" data-speed="900" data-start="2000" data-easing="easeOutExpo">
                 <a href="#" class="btn-brd-white">了解更多</a>
               </div>
-              <div class="caption lfb tp-resizeme" data-x="right" data-y="bottom" data-hoffset="50" data-speed="900" data-start="2500" data-easing="easeOutExpo">
+              <div class="caption lfb tp-resizeme" data-x="right" data-y="bottom" data-hoffset="50" data-speed="900" data-start="2500" data-easing="easeOutExpo" style="left: 217px;top: 280px;z-index: 0;">
                 <img src="@/assets/dashboard/index1.PNG" alt="Image 3">
               </div>
             </li>
@@ -233,7 +233,7 @@
           <!-- //end row -->
           <!-- End Features -->
 
-          <center><a href="#" class="btn-brd-danger">Try it for free</a></center>
+          <center><a href="#" class="btn-brd-danger">了解更多</a></center>
         </div>
       </div>
       <!-- Features END -->
@@ -242,18 +242,18 @@
 
 
     <!-- BEGIN CLIENTS SECTION -->
-    <section id="clients">
+    <!-- <section id="clients">
       <div class="clients">
         <div class="clients-bg">
-          <div class="container">
-            <div class="heading-blue">
+          <div class="container"> -->
+            <!-- <div class="heading-blue">
               <h2>Over <strong>30.000</strong> Customers</h2>
               <p>and let's see what are they saying</p>
-            </div>
+            </div> -->
             <!-- //end heading -->
 
             <!-- Owl Carousel -->
-            <div class="owl-carousel">
+            <!-- <div class="owl-carousel">
               <div class="item" data-quote="#client-quote-1">
                 <img src="@/assets/dashboard/logo1.png" alt="">
               </div>
@@ -296,13 +296,13 @@
               <div class="item" data-quote="#client-quote-14">
                 <img src="@/assets/dashboard/logo14.png" alt="">
               </div>
-            </div>
+            </div> -->
             <!-- End Owl Carousel -->
-          </div>
-        </div>
+          <!-- </div>
+        </div> -->
 
         <!-- Clients Quotes -->
-        <div class="clients-quotes">
+        <!-- <div class="clients-quotes">
           <div class="container">
             <div class="client-quote" id="client-quote-1">
               <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit euismod tincidunt ut laoreet dolore magna aliquam dolor sit amet consectetuer elit</p>
@@ -375,10 +375,10 @@
               <span>Reporter</span>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End Clients Quotes -->
-      </div>
-    </section>
+      <!-- </div>
+    </section> -->
     <!-- END CLIENTS SECTION -->
 
     <!-- BEGIN PORTFOLIO SECTION -->
@@ -430,7 +430,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-item admin">
+                  <div class="cbp-item ecommerce">
                     <div class="cbp-caption">
                       <div class="cbp-caption-hover-gradient">
                         <img src="@/assets/dashboard/p2.jpg" alt="">
@@ -445,7 +445,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-item corporate">
+                  <div class="cbp-item admin">
                     <div class="cbp-caption">
                       <div class="cbp-caption-hover-gradient">
                         <img src="@/assets/dashboard/p3.jpg" alt="">
@@ -460,10 +460,70 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-item retail">
+                  <div class="cbp-item admin">
                     <div class="cbp-caption">
                       <div class="cbp-caption-hover-gradient">
                         <img src="@/assets/dashboard/p4.jpg" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body portfolio-icons">
+                            <a href="@/assets/dashboard/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                            <a href="#"><i class="fa fa-file"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item admin">
+                    <div class="cbp-caption">
+                      <div class="cbp-caption-hover-gradient">
+                        <img src="@/assets/dashboard/p5.jpg" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body portfolio-icons">
+                            <a href="@/assets/dashboard/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                            <a href="#"><i class="fa fa-file"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item admin">
+                    <div class="cbp-caption">
+                      <div class="cbp-caption-hover-gradient">
+                        <img src="@/assets/dashboard/p6.jpg" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body portfolio-icons">
+                            <a href="@/assets/dashboard/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                            <a href="#"><i class="fa fa-file"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item admin">
+                    <div class="cbp-caption">
+                      <div class="cbp-caption-hover-gradient">
+                        <img src="@/assets/dashboard/p7.jpg" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body portfolio-icons">
+                            <a href="@/assets/dashboard/04.jpg" class="cbp-lightbox" data-title="Title"><i class="fa fa-search"></i></a>
+                            <a href="#"><i class="fa fa-file"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cbp-item admin">
+                    <div class="cbp-caption">
+                      <div class="cbp-caption-hover-gradient">
+                        <img src="@/assets/dashboard/p8.jpg" alt="">
                       </div>
                       <div class="cbp-caption-activeWrap">
                         <div class="cbp-l-caption-alignCenter">
@@ -515,8 +575,8 @@
                             <img src="@/assets/dashboard/icon2.png" alt="">
                           </div>
                         </div>
-                        <h2>Created for all type Devices</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                        <h2>公司1</h2>
+                        <p>需求内容</p>
                       </div>
                     </div>
                   </div>
@@ -528,8 +588,8 @@
                             <img src="@/assets/dashboard/icon2.png" alt="">
                           </div>
                         </div>
-                        <h2>Created for all type Devices</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                        <h2>公司2</h2>
+                        <p>需求内容</p>
                       </div>
                     </div>
                   </div>
@@ -541,8 +601,8 @@
                             <img src="@/assets/dashboard/icon3.png" alt="">
                           </div>
                         </div>
-                        <h2>Created for all type Devices</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                        <h2>公司3</h2>
+                        <p>需求内容</p>
                       </div>
                     </div>
                   </div>
@@ -554,8 +614,8 @@
                             <img src="@/assets/dashboard/icon3.png" alt="">
                           </div>
                         </div>
-                        <h2>Created for all type Devices</h2>
-                        <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+                        <h2>公司3</h2>
+                        <p>需求内容</p>
                       </div>
                     </div>
                   </div>
