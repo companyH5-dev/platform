@@ -67,18 +67,9 @@ if (treeData != null && data) {
 /* Layout */
 import Layout from '@/views/layout/index.vue'
 // const login = r => require.ensure([], () => r(_import('login/index')), 'login')
-const page404 = r => require.ensure([], () => r(require("@/views/404.vue")), 'page404');
 
 // const dashboard = r => require.ensure([], () => r(require("@/views/dashboard/index")), 'dashboard');
-const dashboard = r => require.ensure([], () => r(require("@/views/main/dashboard")), 'dashboard');
-const about = r => require.ensure([], () => r(require("@/views/main/about")), 'about');
-const contact = r => require.ensure([], () => r(require("@/views/main/contact")), 'contact');
-const newc = r => require.ensure([], () => r(require("@/views/main/new")), 'new');
-const caseC = r => require.ensure([], () => r(require("@/views/main/case")), 'case');
-const product = r => require.ensure([], () => r(require("@/views/main/product")), 'product');
-const detail = r => require.ensure([], () => r(require("@/views/main/detail")), 'detail');
-const factory = r => require.ensure([], () => r(require("@/views/main/factory")), 'factory');
-
+import dashboard from '@/views/main/dashboard'
 
 
 
@@ -93,13 +84,7 @@ const factory = r => require.ensure([], () => r(require("@/views/main/factory"))
 **/
 
 let arrRouter = [
-  {
-    path: '/404',
-    component: page404,
-    name: '404',
-    leaf: true,
-    hidden: true
-  },
+
   {
     path: '/',
     component: Layout,
@@ -112,62 +97,6 @@ let arrRouter = [
     children: [{
       path: 'dashboard',
       component: dashboard,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'about',
-      component: about,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'contact',
-      component: contact,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'newc',
-      component: newc,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'case',
-      component: caseC,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'product',
-      component: product,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'factory',
-      component: factory,
-      leaf: true,
-      meta: {
-        title: '导航',
-        icon: "xitong"
-      },
-    },{
-      path: 'detail',
-      component: detail,
       leaf: true,
       meta: {
         title: '导航',

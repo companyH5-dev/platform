@@ -1,5 +1,7 @@
- (function () {
+var RevosliderInit = function () {
 
+    return {
+        initRevoSlider: function () {
             var height = 580; // minimal height for medium resolution
 
             // smart height detection for all major screens
@@ -21,5 +23,7 @@
                 onHoverStop: "on",                      // Stop Banner Timet at Hover on Slide on/off
                 fullScreenOffsetContainer: ""
             });
+        }
+    };
 
-})();
+}();

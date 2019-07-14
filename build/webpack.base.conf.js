@@ -28,6 +28,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       'jquery': 'jquery',
+      'revolution': path.resolve(__dirname, '../src/components/jquery.themepunch.revolution.min.js'),
+      'Hammer': path.resolve(__dirname, '../src/components/jquery.themepunch.plugins.min.js'),
       '@': resolve('src'),
     }
   },
@@ -37,6 +39,8 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
+      revolution: "revolution",
+      Hammer: "Hammer",
     })
   ],
   externals: {

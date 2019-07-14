@@ -29,13 +29,7 @@
               <a href="#intro">主页</a>
             </li>
             <li class="page-scroll">
-              <a href="#about">新闻资讯</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#features">平台特色</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#team">团队</a>
+              <a href="#features">平台简介</a>
             </li>
             <!-- <li class="page-scroll">
                             <a href="#clients">Clients</a>
@@ -43,6 +37,12 @@
             <li class="page-scroll">
               <a href="#portfolio">科研项目</a>
             </li>
+            <li class="page-scroll">
+              <a href="#about">新闻资讯</a>
+            </li>
+            <!-- <li class="page-scroll">
+              <a href="#team">团队介绍</a>
+            </li> -->
             <!-- <li class="page-scroll">
                             <a href="#pricing">Pricing</a>
                         </li> -->
@@ -132,62 +132,6 @@
                 <img src="@/assets/dashboard/index3.PNG" alt="Image 3">
               </div>
             </li>
-            <!-- THE NEW SLIDE -->
-            <!-- <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
-                            <img src="@/assets/dashboard/blank.png" alt="">
-
-                            <div class="caption fulllscreenvideo tp-videolayer"
-                                    data-x="0"
-                                    data-y="0"
-                                    data-speed="600"
-                                    data-start="1000"
-                                    data-easing="Power4.easeOut"
-                                    data-endspeed="500"
-                                    data-endeasing="Power4.easeOut"
-                                    data-autoplay="true"
-                                    data-autoplayonlyfirsttime="false"
-                                    data-nextslideatend="true"
-                                    data-videowidth="100%"
-                                    data-videoheight="100%"
-                                    data-videopreload="meta"
-                                    data-videomp4="http://themepunch.com/revolution/wp-content/uploads/2014/05/among_the_stars.mp4"
-                                    data-videowebm="http://themepunch.com/revolution/wp-content/uploads/2014/05/among_the_stars.webm"
-                                    data-videocontrols="none"
-                                    data-forcecover="1"
-                                    data-forcerewind="on"
-                                    data-aspectratio="16:9"
-                                    data-volume="mute"
-                                    data-videoposter="@/assets/dashboard/bg_slider3.jpg">
-                            </div>
-
-                            <div class="caption lft tp-resizeme"
-                                data-x="center"
-                                data-y="center"
-                                data-voffset="-100"
-                                data-speed="900"
-                                data-start="1000"
-                                data-easing="easeOutExpo">
-                                <h3>Let us show you</h3>
-                            </div>
-                            <div class="caption lft tp-resizeme"
-                                data-x="center"
-                                data-y="center"
-                                data-voffset="10"
-                                data-speed="900"
-                                data-start="1500"
-                                data-easing="easeOutExpo">
-                                <h3 class="red-title">A few things</h3>
-                            </div>
-                            <div class="caption lft tp-resizeme"
-                                data-x="center"
-                                data-y="center"
-                                data-voffset="130"
-                                data-speed="900"
-                                data-start="2000"
-                                data-easing="easeOutExpo">
-                                <a href="#" class="btn-brd-white">Learn More</a>
-                            </div>
-                        </li> -->
           </ul>
         </div>
       </div>
@@ -209,13 +153,16 @@
           <div class="subscribe-body">
             <form class="form-wrap input-field">
               <div class="form-wrap-group">
-                <input type="name" class="form-control" id="name" placeholder="用户名">
+                <input type="name" class="form-control" id="name" placeholder="手机号码">
               </div>
               <div class="form-wrap-group border-left-transparent">
-                <input type="email" class="form-control" id="email" placeholder="Email">
+                <input type="password" class="form-control" id="password" placeholder="密码">
               </div>
               <div class="form-wrap-group">
-                <button type="submit" class="btn-danger btn-md btn-block">登录</button>
+                <button type="submit" @click="cfm_msg" class="btn-danger btn-md btn-block">登录</button>
+              </div>
+              <div class="form-wrap-group" >
+                  <button type="submit" @click="cfm_msg" class="btn-danger btn-md btn-block" style="margin-left: 20px;width: 62px;background: #2bad3b;border: 2px solid #2bad3b">注册</button>
               </div>
             </form>
           </div>
@@ -224,49 +171,6 @@
     </div>
     <!-- SUBSCRIBE END -->
 
-    <!-- BEGIN ABOUT SECTION -->
-    <section id="about">
-      <!-- Services BEGIN -->
-      <div class="container service-bg">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="services sm-margin-bottom-100">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon1.png" alt="">
-                </div>
-              </div>
-              <h2>Metronic is time saver</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="services sm-margin-bottom-100">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon2.png" alt="">
-                </div>
-              </div>
-              <h2>Created for all type Devices</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="services">
-              <div class="services-wrap">
-                <div class="service-body">
-                  <img src="@/assets/dashboard/icon3.png" alt="">
-                </div>
-              </div>
-              <h2>Great individual Design</h2>
-              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Services END -->
-    </section>
-    <!-- END ABOUT SECTION -->
 
     <!-- BEGIN FEATURES SECTION -->
     <section id="features">
@@ -274,8 +178,10 @@
       <div class="features-bg">
         <div class="container">
           <div class="heading">
-            <h2><strong>平台</strong> 主要特色</h2>
-            <p>To try the most advanced business</p>
+            <h2>平台<strong>简介</strong></h2>
+            <p style=" padding: 0 160px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从一个全新的角度出发，打造科研互联网平台，为高校内的优势技术急需产业化<br>提供资金的支持，同时也解决了投资机构找项目难的问题。
+              项目-资金，快速达成合作意向的优秀互联网平台，<br>将科研产业化变得高效、清晰、明了。
+            </p>
           </div><!-- //end heading -->
 
           <!-- Features -->
@@ -285,7 +191,7 @@
                 <img src="@/assets/dashboard/screen1.png" alt="">
                 <div class="features-in">
                   <h3><a href="#">高附加值、实际应用</a></h3>
-                  <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                  <p>此新材料项目能够带来较高的生产价值及社会价值。</p>
                 </div>
               </div>
             </div>
@@ -294,7 +200,7 @@
                 <img src="@/assets/dashboard/screen2.png" alt="">
                 <div class="features-in">
                   <h3><a href="#">专业性（技术含金量）</a></h3>
-                  <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                  <p>具有较高的技术含量，原创或打破国外垄断。</p>
                 </div>
               </div>
             </div>
@@ -304,8 +210,8 @@
               <div class="features">
                 <img src="@/assets/dashboard/screen3.png" alt="">
                 <div class="features-in">
-                  <h3><a href="#">高效（形成论文、专利）</a></h3>
-                  <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                  <h3><a href="#">高效、快捷</a></h3>
+                  <p>在平台权限范围内进行线上或线下的有效交流。</p>
                 </div>
               </div>
             </div>
@@ -314,7 +220,7 @@
                 <img src="@/assets/dashboard/screen4.png" alt="">
                 <div class="features-in">
                   <h3><a href="#">专家、教授相关资质</a></h3>
-                  <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor</p>
+                  <p>技术研发成熟，相关技术成果已经以论文或专利的形式进行发表、申请。</p>
                 </div>
               </div>
             </div>
@@ -328,142 +234,6 @@
     </section>
     <!-- END FEATURES SECTION -->
 
-    <!-- BEGIN TEAM SECTION -->
-    <section id="team">
-      <!-- Team BEGIN -->
-      <div class="team-bg parallax">
-        <div class="container">
-          <div class="heading-light">
-            <h2>Our <strong>Great Team</strong></h2>
-          </div><!-- //end heading -->
-
-          <div class="row">
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member1.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>John Doe</h4>
-                        <span>Marketing</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member2.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Melisa Doe</h4>
-                        <span>Founder</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member3.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Alex Atkinson</h4>
-                        <span>Director</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- //end row -->
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member4.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>John Doe</h4>
-                        <span>Marketing</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member5.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Melisa Doe</h4>
-                        <span>Founder</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="team-members">
-                    <div class="team-avatar">
-                      <img class="img-responsive" src="@/assets/dashboard/member6.png" alt="">
-                    </div>
-                    <div class="team-desc">
-                      <div class="team-details">
-                        <h4>Alex Atkinson</h4>
-                        <span>Director</span>
-                      </div>
-                      <ul class="team-socials">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- //end row -->
-            </div>
-            <div class="col-md-4">
-              <div class="team-about">
-                <h3>Built with bootstrap</h3>
-                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor suit elit amet nonummy nibh dolore onec placerat interdum purus.</p>
-                <div class="margin-bottom-40"></div>
-                <h3>AngularJS Support</h3>
-                <p>Etiam aliquam ex pulvinar odio dictum commodo. Nulla dui risus, egestas sit amet nisi et, eleifend cursus odio.</p>
-                <div class="margin-bottom-40"></div>
-                <h3>and WOW Features</h3>
-                <p>Donec placerat interdum purus, at finibus enim aliquam non. Etiam congue fringilla pharetra. Vestibulum facilisis lectus eros. Etiam congue fringilla pharetra. Lorem niam ipsum dolor sit ammet adipiscing e</p>
-              </div>
-            </div>
-          </div><!-- //end row -->
-        </div>
-      </div>
-      <!-- Team END -->
-    </section>
-    <!-- END TEAM SECTION -->
 
     <!-- BEGIN CLIENTS SECTION -->
     <section id="clients">
@@ -707,6 +477,192 @@
     </section>
     <!-- END PORTFOLIO SECTION -->
 
+    <!-- BEGIN ABOUT SECTION -->
+    <section id="about">
+      <!-- Services BEGIN -->
+      <div class="container service-bg">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="services sm-margin-bottom-100">
+              <div class="services-wrap">
+                <div class="service-body">
+                  <img src="@/assets/dashboard/icon1.png" alt="">
+                </div>
+              </div>
+              <h2>Metronic is time saver</h2>
+              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="services sm-margin-bottom-100">
+              <div class="services-wrap">
+                <div class="service-body">
+                  <img src="@/assets/dashboard/icon2.png" alt="">
+                </div>
+              </div>
+              <h2>Created for all type Devices</h2>
+              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="services">
+              <div class="services-wrap">
+                <div class="service-body">
+                  <img src="@/assets/dashboard/icon3.png" alt="">
+                </div>
+              </div>
+              <h2>Great individual Design</h2>
+              <p>Lorem ipsum dolor consetuer <br> erat votpat dolore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Services END -->
+    </section>
+    <!-- END ABOUT SECTION -->
+
+
+    <!-- BEGIN TEAM SECTION -->
+    <section id="team">
+      <!-- Team BEGIN -->
+      <div class="team-bg parallax">
+        <div class="container">
+          <div class="heading-light">
+            <h2>Our <strong>Great Team</strong></h2>
+          </div><!-- //end heading -->
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member1.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>John Doe</h4>
+                        <span>Marketing</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member2.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>Melisa Doe</h4>
+                        <span>Founder</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member3.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>Alex Atkinson</h4>
+                        <span>Director</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- //end row -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member4.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>John Doe</h4>
+                        <span>Marketing</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member5.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>Melisa Doe</h4>
+                        <span>Founder</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="team-members">
+                    <div class="team-avatar">
+                      <img class="img-responsive" src="@/assets/dashboard/member6.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                      <div class="team-details">
+                        <h4>Alex Atkinson</h4>
+                        <span>Director</span>
+                      </div>
+                      <ul class="team-socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- //end row -->
+            </div>
+            <div class="col-md-4">
+              <div class="team-about">
+                <h3>Built with bootstrap</h3>
+                <p>Lorem niam ipsum dolor sit ammet adipiscing et suitem elit et nonuy nibh elit niam dolor suit elit amet nonummy nibh dolore onec placerat interdum purus.</p>
+                <div class="margin-bottom-40"></div>
+                <h3>AngularJS Support</h3>
+                <p>Etiam aliquam ex pulvinar odio dictum commodo. Nulla dui risus, egestas sit amet nisi et, eleifend cursus odio.</p>
+                <div class="margin-bottom-40"></div>
+                <h3>and WOW Features</h3>
+                <p>Donec placerat interdum purus, at finibus enim aliquam non. Etiam congue fringilla pharetra. Vestibulum facilisis lectus eros. Etiam congue fringilla pharetra. Lorem niam ipsum dolor sit ammet adipiscing e</p>
+              </div>
+            </div>
+          </div><!-- //end row -->
+        </div>
+      </div>
+      <!-- Team END -->
+    </section>
+    <!-- END TEAM SECTION -->
+
+
+
+
+
     <!-- BEGIN PRICING SECTION -->
     <section id="pricing">
       <div class="pricing-bg">
@@ -839,7 +795,9 @@ export default {
     }
   },
   created() {},
-  mounted() {},
+  mounted() {
+
+  },
   computed: {},
   methods: {
 
@@ -921,14 +879,14 @@ export default {
       }, 1000)
     },
     cfm_msg() {
-      if ($("#nickname").val() == "" || $("#nickname").val() == "请填写联系人姓名") {
-        alert("请填写联系人姓名！");
+      if ($("#name").val() == "" || $("#name").val() == "请填写手机号") {
+        alert("请填写手机号！");
         $("#nickname").focus();
         return false;
       }
-      if ($("#email").val() == "" || $("#email").val() == "请填写联系人邮箱") {
-        alert("请填写联系人邮箱！");
-        $("#email").focus();
+      if ($("#password").val() == "" || $("#password").val() == "请填写密码") {
+        alert("请填写密码！");
+        $("#password").focus();
         return false;
       }
       if ($("#content").val() == "") {
@@ -936,7 +894,6 @@ export default {
         $("#content").focus();
         return false;
       }
-
       alert("提交成功！");
     },
     reload() {

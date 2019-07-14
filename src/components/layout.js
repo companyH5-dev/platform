@@ -183,4 +183,3 @@ var Layout = function () {
         },
     };
 }();
-Layout.init();
