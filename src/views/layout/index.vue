@@ -3,7 +3,7 @@
   <div class="main-container">
     <!-- <navbar></navbar> -->
     <app-main></app-main>
-    <!-- <bottom></bottom> -->
+    <bottom></bottom>
   </div>
 </div>
 </template>

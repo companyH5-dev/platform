@@ -9,9 +9,9 @@
           </div>
           <ul>
             <li>{{$t("dytii.tel")}}：0816-8888888</li>
-            <li>{{$t("dytii.code")}}：621000</li>
-            <li>{{$t("dytii.onlineCs")}}：1234567489</li>
-            <li>{{$t("dytii.email")}}：134564@qq.com</li>
+            <li>{{$t("dytii.code")}}：314318</li>
+            <li>{{$t("dytii.onlineCs")}}：269274122</li>
+            <li>{{$t("dytii.email")}}：：269274122@qq.com</li>
             <li>{{$t("dytii.adress")}}</li>
           </ul>
         </div>
@@ -38,7 +38,7 @@
           </ul>
         </div>
         <div class="foot3">
-          <p class="dilogo"><img style="width:150px;" src="@/assets/logo/wlogo.png" /></p>
+          <p class="dilogo"><img style="width:150px;" src="@/assets/logo/logo_default.png" /></p>
           <p></p>
           <p>{{$t("dytii.preparation")}}</p>
           <p></p>

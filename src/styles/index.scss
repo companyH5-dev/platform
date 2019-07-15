@@ -9,3 +9,16 @@ body {
 html {
   box-sizing: border-box;
 }
+ul li {
+    list-style-type: none;
+}
+.owl-carousel .owl-item{
+  font-size: 13px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid;
+}
+.owl-carousel .owl-item .center{
+  font-size: 15px;
+  color: #ccc
+}

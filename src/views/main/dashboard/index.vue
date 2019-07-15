@@ -150,8 +150,8 @@
       <div class="container">
         <div class="subscribe-wrap">
           <div class="subscribe-body subscribe-desc md-margin-bottom-30">
-            <h1>免费注册</h1>
-            <p>To try the most advanced business platform for mobile and desktop</p>
+            <h2 style="color:#fff;margin-top:0">加入我们</h2>
+            <p style="font-size:16px;">享受线上+线下、标准化+个性化的服务体系，资本机构免费入驻！</p>
           </div>
           <div class="subscribe-body">
             <form class="form-wrap input-field">
@@ -242,46 +242,50 @@
 
 
     <!-- BEGIN CLIENTS SECTION -->
-    <!-- <section id="clients">
+    <section id="clients">
       <div class="clients">
         <div class="clients-bg">
-          <div class="container"> -->
-            <!-- <div class="heading-blue">
-              <h2>Over <strong>30.000</strong> Customers</h2>
-              <p>and let's see what are they saying</p>
-            </div> -->
+          <div class="container">
+            <div class="heading-blue">
+              <h2>国家政策 <strong>扶持</strong></h2>
+              <p>为了更好的引导我国新材料产业健康有序发展，在2016年国家出台《新材料产业发展指南》、《国家新材料生产应用示范平台建设方案》、《国家新材料产业资源共享平台建设方案》、
+                《重点新材料首批次应用示范指导目录（2018年版）》及《新材料标准领航行动计划（2018-2020年）》等一系列新材料产业政策，积极抢占新材料领域的竞争制高点，随后
+                全国主要省市在2018年陆续出台扶持新材料产业发展的规划...</p>
+            </div>
             <!-- //end heading -->
 
             <!-- Owl Carousel -->
-            <!-- <div class="owl-carousel">
+            <div class="owl-carousel">
               <div class="item" data-quote="#client-quote-1">
-                <img src="@/assets/dashboard/logo1.png" alt="">
+                <div class="" st>
+                  浙江省
+                </div>
               </div>
               <div class="item" data-quote="#client-quote-2">
-                <img src="@/assets/dashboard/logo2.png" alt="">
+                厦门市
               </div>
               <div class="item" data-quote="#client-quote-3">
-                <img src="@/assets/dashboard/logo3.png" alt="">
+                山东省
               </div>
               <div class="item" data-quote="#client-quote-4">
-                <img src="@/assets/dashboard/logo4.png" alt="">
+                天津市
               </div>
               <div class="item" data-quote="#client-quote-5">
-                <img src="@/assets/dashboard/logo5.png" alt="">
+                东莞市
               </div>
               <div class="item" data-quote="#client-quote-6">
-                <img src="@/assets/dashboard/logo6.png" alt="">
+                云南省
               </div>
               <div class="item" data-quote="#client-quote-7">
-                <img src="@/assets/dashboard/logo7.png" alt="">
+                深圳市
               </div>
               <div class="item" data-quote="#client-quote-8">
-                <img src="@/assets/dashboard/logo8.png" alt="">
+                河南省
               </div>
               <div class="item" data-quote="#client-quote-9">
-                <img src="@/assets/dashboard/logo9.png" alt="">
+                安徽省
               </div>
-              <div class="item" data-quote="#client-quote-10">
+              <!-- <div class="item" data-quote="#client-quote-10">
                 <img src="@/assets/dashboard/logo10.png" alt="">
               </div>
               <div class="item" data-quote="#client-quote-11">
@@ -295,61 +299,52 @@
               </div>
               <div class="item" data-quote="#client-quote-14">
                 <img src="@/assets/dashboard/logo14.png" alt="">
-              </div>
-            </div> -->
+              </div> -->
+            </div>
             <!-- End Owl Carousel -->
-          <!-- </div>
-        </div> -->
+          </div>
+        </div>
 
         <!-- Clients Quotes -->
-        <!-- <div class="clients-quotes">
+        <div class="clients-quotes">
           <div class="container">
             <div class="client-quote" id="client-quote-1">
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit euismod tincidunt ut laoreet dolore magna aliquam dolor sit amet consectetuer elit</p>
-              <h4>Mark Nilson</h4>
-              <span>Director</span>
+              <p>2019年，《浙江省加快新材料产业发展行动计划（2019－2022年）》延续国家布局的三大重点领域，提出到2022年，新材料产业年产值突破1万亿元，比2018年增长53%以上，年均增长11.2%，产业规模稳居全国前4位；综合竞争力进一步提升，在浙江省经济社会发展中的地位更加突出。</p>
+              <!-- <span>浙江省</span> -->
             </div>
             <div class="client-quote" id="client-quote-2">
-              <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit euismod tincidunt aliquam dolor sit amet consectetuer elit</p>
-              <h4>Lisa Wong</h4>
-              <span>Artist</span>
+              <p>2019年，厦门市出台的《新材料产业链群2018-2022年发展规划》厦门市将力争2020年全市新材料规上工业产值突破1000亿元，2022年超过1300亿元，壮大“特种金属及功能材料、光电信息材料、先进高分子材料、新能源材料、先进碳材料”等五大特色产业集群，到2025年新材料规上工业总产值突破2000亿元。</p>
+              <!-- <span>厦门市</span> -->
             </div>
             <div class="client-quote" id="client-quote-3">
-              <p>Lorem ipsum dolor sit amet consectetuer elit euismod tincidunt aliquam dolor sit amet elit</p>
-              <h4>Nick Dalton</h4>
-              <span>Developer</span>
+              <p>2018年，《山东省新材料产业发展专项规划（2018-2022年）》提出重点扶持的前沿新材料、关键战略材料、先进基础材料三大方向，将产业链条延伸，向高端进军，提升附加值。到2022年，全省新材料产业主营业务收入达到1.5万亿元，年均增长10%以上，产业规模保持全国前三，力争位次前移。</p>
+              <!-- <span>山东省</span> -->
             </div>
             <div class="client-quote" id="client-quote-4">
-              <p>Fusce mattis vestibulum felis, vel semper mi interdum quis. Vestibulum ligula turpis, aliquam a molestie quis, gravida eu libero.</p>
-              <h4>Alex Janmaat</h4>
-              <span>Co-Founder</span>
+              <p>2018年，《天津市新材料产业发展三年行动计划(2018—2020年)》提出重点发展基础材料，到2020年，新材料产业产值达到1800亿元，年均增长10%，重点领域新材料达到行业领先水平，建成国内一流的新材料产业基地。</p>
+              <!-- <span>天津市</span> -->
             </div>
             <div class="client-quote" id="client-quote-5">
-              <p>Vestibulum sodales imperdiet euismod.</p>
-              <h4>Jeffrey Veen</h4>
-              <span>Designer</span>
+              <p>2018年，《东莞市重点新兴产业发展规划（2018－2025年）》明确重点发展先进材料、加快布局前沿材料，打通从基础科学发现、关键技术突破到产业应用的完整创新链。至2025年新材料产值超2000亿元。</p>
+              <!-- <span>东莞市</span> -->
             </div>
             <div class="client-quote" id="client-quote-6">
-              <p>Praesent sed sollicitudin mauris. Praesent eu metus laoreet, sodales orci nec, rutrum dui.</p>
-              <h4>Inna Rose</h4>
-              <span>Google</span>
+              <p>2018年，云南省新材料产业发展三年行动计划（2018-2020年）》提出示范工程建设行动、招商引资推进行动、公共平台搭建及其他重点行动来推动云南省新材料产业发展，到2020年，全省新材料产业将实现1000亿元产值，年均产值增长率18.9%。</p>
+              <!-- <span>云南省</span> -->
             </div>
             <div class="client-quote" id="client-quote-7">
-              <p>Sed ornare enim ligula, id imperdiet urna laoreet eu. Praesent eu metus laoreet, sodales orci nec, rutrum dui.</p>
-              <h4>Jacob Nelson</h4>
-              <span>Support</span>
+              <p>2018年，《深圳市战略性新兴产业发展 “十三五”规划》到2020年，努力构建具有国际竞争力的新材料产业集群，产业规模达到2300亿元。</p>
+              <!-- <span>深圳市</span> -->
             </div>
             <div class="client-quote" id="client-quote-8">
-              <p>Adipiscing elit euismod tincidunt ut laoreet dolore magna aliquam dolor sit amet consectetuer elit</p>
-              <h4>John Doe</h4>
-              <span>Marketing</span>
+              <p>2018年，《河南省新型材料业转型升级行动计划（2017—2020年)》明确到2020年,新型材料业主营业务收入突破7000亿元、年均增长10%以上。</p>
+              <!-- <span>河南省</span> -->
             </div>
             <div class="client-quote" id="client-quote-9">
-              <p>Nam euismod fringilla turpis vitae tincidunt, adipiscing elit euismod tincidunt aliquam dolor sit amet consectetuer elit</p>
-              <h4>Michael Stawson</h4>
-              <span>Graphic Designer</span>
+              <p>2018年，《安徽省新材料产业发展规划(2018-2025年)》到2025年，全省新材料工业总产值将达到8000亿元，年均增长速度15%左右，销售产值超百亿元企业累计达30家左右，涌现一批具有国际竞争力的创新型领军企业和高成长性的科技型中小企业。</p>
+              <!-- <span>安徽省</span> -->
             </div>
-            <div class="client-quote" id="client-quote-10">
+            <!-- <div class="client-quote" id="client-quote-10">
               <p>Quisque eget mi non enim efficitur fermentum id at purus.</p>
               <h4>Liam Nelsson</h4>
               <span>Actor</span>
@@ -373,12 +368,12 @@
               <p>Nam non vulputate orci. Duis sed mi nec ligula tristique semper vitae pretium nisi. Pellentesque nec enim vel magna pulvinar vulputate.</p>
               <h4>Melissa Korn</h4>
               <span>Reporter</span>
-            </div>
+            </div> -->
           </div>
-        </div> -->
+        </div>
         <!-- End Clients Quotes -->
-      <!-- </div>
-    </section> -->
+      </div>
+    </section>
     <!-- END CLIENTS SECTION -->
 
     <!-- BEGIN PORTFOLIO SECTION -->
@@ -387,7 +382,7 @@
         <div class="container">
           <div class="heading">
             <h2>特色 <strong>项目</strong></h2>
-            <P>To try the most advanced business platform <br> for mobile and desktop</P>
+            <P>具有较高的技术含量，<br> 原创或打破国外垄断，能够带来较高的生产价值及社会价值。 </P>
           </div>
 
           <div class="cube-portfolio">
@@ -551,7 +546,7 @@
         <div class="container">
           <div class="heading">
             <h2>找 <strong>资金</strong></h2>
-            <P>To try the most advanced business platform <br> for mobile and desktop</P>
+            <P>引入实力投资，助推企业发展<br> 早期项目的福音，从这开始</P>
           </div>
 
           <div class="cube-portfolio">
@@ -637,7 +632,7 @@
         <div class="container">
           <div class="heading">
             <h2>行业 <strong>资讯</strong></h2>
-            <P>To try the most advanced business platform <br> for mobile and desktop</P>
+            <P>新能源、新材料是中国重点培育发展的七大战略性新兴产业之一，<br> 是高技术产业、高端制造及国防工业的基础和先导。</P>
           </div>
           <!-- //end heading -->
 
@@ -685,25 +680,25 @@
           <div class="row">
             <div class="col-sm-6">
               <div class="heading-left-light">
-                <h2>Say hello to Metronic</h2>
-                <p>To try the most advanced business platform <br> for mobile and desktop</p>
+                <h2>联系我们</h2>
+                <p>我们是一个专业的融资信息服务平台，欢饮投融资机构、企业与个人用户入驻。禾投融通过线上+线下、标准化+个性化的服务体系，为客户提供针对性的投融资信息对接和项目撮配服务！</p>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form">
                 <div class="form-wrap">
                   <div class="form-wrap-group">
-                    <input type="text" placeholder="Your Name" class="form-control">
-                    <input type="text" placeholder="Subject" class="border-top-transparent form-control">
+                    <input type="text" placeholder="你的名字" class="form-control">
+                    <input type="text" placeholder="项目名" class="border-top-transparent form-control">
                   </div>
                   <div class="form-wrap-group border-left-transparent">
-                    <input type="text" placeholder="Your Email" class="form-control">
-                    <input type="text" placeholder="Contact Phone" class="border-top-transparent form-control">
+                    <input type="text" placeholder="你的邮箱" class="form-control">
+                    <input type="text" placeholder="联系方式" class="border-top-transparent form-control">
                   </div>
                 </div>
               </div>
-              <textarea rows="8" name="message" placeholder="Write comment here ..." class="border-top-transparent form-control"></textarea>
-              <button type="submit" class="btn-danger btn-md btn-block">Send it</button>
+              <textarea rows="8" name="message" placeholder="说出你的想法..." class="border-top-transparent form-control"></textarea>
+              <button type="submit" class="btn-danger btn-md btn-block">发送</button>
             </div>
           </div>
           <!-- //end row -->
@@ -712,7 +707,7 @@
       <!-- End Footer -->
 
       <!-- Footer Coypright -->
-      <div class="footer-copyright">
+      <!-- <div class="footer-copyright">
         <div class="container">
           <h3>Metronic</h3>
           <ul class="copyright-socials">
@@ -724,7 +719,7 @@
           </ul>
           <P>Designed with love by KeenThemes</P>
         </div>
-      </div>
+      </div> -->
       <!-- End Footer Coypright -->
     </section>
     <!-- END CONTACT SECTION -->
@@ -857,7 +852,7 @@ export default {
     }
   },
   watch: {
-    '$i18n.locale' (to, from) {
+    '$i18n.locale'(to, from) {
       this.reload()
 
     }
