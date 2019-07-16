@@ -69,6 +69,11 @@
         <div class="banner">
           <ul id="revolutionul">
             <!-- THE NEW SLIDE -->
+
+            <!-- THE NEW SLIDE -->
+
+
+
             <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="129400" data-thumb="">
               <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
               <img src="@/assets/dashboard/bg_slider1.jpg" alt="">
@@ -77,7 +82,8 @@
                 <h3>纳米钛酸钡</h3>
               </div>
               <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-285" data-voffset="55" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <p class="subtitle-v1">目前钛酸钡基材料<br> 被广泛的应用动态随机储存器、电子滤波器、
+                <p class="subtitle-v1"
+                >目前钛酸钡基材料<br> 被广泛的应用动态随机储存器、电子滤波器、
                   <br> 谐振器、超声探测、温控传感器及高介电常数的电容器等
                 </p>
               </div>
@@ -89,48 +95,32 @@
               </div>
             </li>
             <!-- THE NEW SLIDE -->
-            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
+            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="226000" data-thumb="">
               <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
               <img src="@/assets/dashboard/bg_slider2.jpg" alt="">
 
-              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-322" data-voffset="-30" data-speed="900" data-start="1000" data-easing="easeOutExpo">
-                <h3 class="title-v2">Ultimate Apps <br>
-                  for Business</h3>
+              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-370" data-voffset="-30" data-speed="900" data-start="1000" data-easing="easeOutExpo">
+                <h3 class="title-v2">SnO2@SnS2</h3>
               </div>
-              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-490" data-voffset="110" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <p class="subtitle-v2">Available in:</p>
+              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-385" data-voffset="110" data-speed="900" data-start="1500" data-easing="easeOutExpo">
+                <p class="subtitle-v2">制备复合电极材料用于高效锂/钠存储</p>
               </div>
-              <a href="#" class="caption lft tp-resizeme slide_thumb_img slide_border" data-x="center" data-y="center" data-hoffset="-370" data-voffset="102" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <img src="@/assets/dashboard/icon_android.png" alt="Image 1">
-                |
-              </a>
-              <a href="#" class="caption lft tp-resizeme slide_thumb_img" data-x="center" data-y="center" data-hoffset="-318" data-voffset="102" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <img src="@/assets/dashboard/icon_ios.png" alt="Image 2">
-              </a>
+
               <div class="caption lfb tp-resizeme" data-x="right" data-y="bottom" data-hoffset="100" data-speed="900" data-start="2000" data-easing="easeOutExpo">
                 <img src="@/assets/dashboard/index2.PNG" alt="Image 3">
               </div>
             </li>
-
-            <!-- THE NEW SLIDE -->
-            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">
+            <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="226000" data-thumb="">
               <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
               <img src="@/assets/dashboard/bg_slider2.jpg" alt="">
 
-              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-322" data-voffset="-30" data-speed="900" data-start="1000" data-easing="easeOutExpo">
-                <h3 class="title-v2">Ultimate Apps <br>
-                  for Business</h3>
+              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-370" data-voffset="-70" data-speed="900" data-start="1000" data-easing="easeOutExpo">
+                <h3 class="title-v2">有机P-N异质结</h3>
               </div>
-              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-490" data-voffset="110" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <p class="subtitle-v2">Available in:</p>
+              <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-385" data-voffset="50" data-speed="900" data-start="1500" data-easing="easeOutExpo">
+                <p class="subtitle-v2">制备复合电极材料用于高效锂</p>
               </div>
-              <a href="#" class="caption lft tp-resizeme slide_thumb_img slide_border" data-x="center" data-y="center" data-hoffset="-370" data-voffset="102" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <img src="@/assets/dashboard/icon_android.png" alt="Image 1">
-                |
-              </a>
-              <a href="#" class="caption lft tp-resizeme slide_thumb_img" data-x="center" data-y="center" data-hoffset="-318" data-voffset="102" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <img src="@/assets/dashboard/icon_ios.png" alt="Image 2">
-              </a>
+
               <div class="caption lfb tp-resizeme" data-x="right" data-y="bottom" data-hoffset="100" data-speed="900" data-start="2000" data-easing="easeOutExpo">
                 <img src="@/assets/dashboard/index3.PNG" alt="Image 3">
               </div>
@@ -192,7 +182,7 @@
           <div class="row margin-bottom-70">
             <div class="col-md-6 md-margin-bottom-70">
               <div class="features">
-                <img src="@/assets/dashboard/screen1.png" alt="">
+                <img src="@/assets/dashboard/ys1.png" alt="" style="width:100px;">
                 <div class="features-in">
                   <h3><a href="#">高附加值、实际应用</a></h3>
                   <p>此新材料项目能够带来较高的生产价值及社会价值。</p>
@@ -201,7 +191,7 @@
             </div>
             <div class="col-md-6">
               <div class="features">
-                <img src="@/assets/dashboard/screen2.png" alt="">
+                <img src="@/assets/dashboard/ys2.png" alt="" style="width:100px;">
                 <div class="features-in">
                   <h3><a href="#">专业性（技术含金量）</a></h3>
                   <p>具有较高的技术含量，原创或打破国外垄断。</p>
@@ -213,7 +203,7 @@
           <div class="row margin-bottom-80">
             <div class="col-md-6 md-margin-bottom-70">
               <div class="features">
-                <img src="@/assets/dashboard/screen3.png" alt="">
+                <img src="@/assets/dashboard/ys3.png" alt="" style="width:100px;">
                 <div class="features-in">
                   <h3><a href="#">高效、快捷</a></h3>
                   <p>在平台权限范围内进行线上或线下的有效交流。</p>
@@ -222,7 +212,7 @@
             </div>
             <div class="col-md-6">
               <div class="features">
-                <img src="@/assets/dashboard/screen4.png" alt="">
+                <img src="@/assets/dashboard/ys4.png" alt="" style="width:100px;">
                 <div class="features-in">
                   <h3><a href="#">专家、教授相关资质</a></h3>
                   <p>技术研发成熟，相关技术成果已经以论文或专利的形式进行发表、申请。</p>
@@ -640,26 +630,26 @@
           <div class="row no-space-row">
             <div class="col-md-4">
               <div class="pricing no-right-brd">
-                <img src="@/assets/dashboard/icon4.png" alt="">
-                <h4>Starter Plan</h4>
-                <span>$99 / Month</span>
-                <button type="button" class="btn-brd-primary">Purchase</button>
+                <img src="@/assets/dashboard/hy1.jpg" alt="">
+                <h4>湖南新型节能环保陶瓷材料生产建设项目</h4>
+                <span>成功融资1000万元</span>
+                <button type="button" class="btn-brd-primary">查看</button>
               </div>
             </div>
             <div class="col-md-4">
               <div class="pricing pricing-red">
-                <img src="@/assets/dashboard/icon5.png" alt="">
-                <h4>Business Plan</h4>
-                <span>$99 / Month</span>
-                <button type="button" class="btn-brd-white">Purchase</button>
+                <img src="@/assets/dashboard/hy2.jpg" alt="">
+                <h4>辽宁锂电原料扩产项目</h4>
+                <span>成功融资4000万元</span>
+                <button type="button" class="btn-brd-white">查看</button>
               </div>
             </div>
             <div class="col-md-4">
               <div class="pricing no-left-brd">
-                <img src="@/assets/dashboard/icon6.png" alt="">
-                <h4>Expert Plan</h4>
-                <span>$199 / Month</span>
-                <button type="button" class="btn-brd-primary">Purchase</button>
+                <img src="@/assets/dashboard/hy3.jpg" alt="">
+                <h4>山西新能源氢燃料电池及整车项目</h4>
+                <span>成功融资10亿元</span>
+                <button type="button" class="btn-brd-primary">查看</button>
               </div>
             </div>
           </div>

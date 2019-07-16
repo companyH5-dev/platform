@@ -1448,11 +1448,11 @@ a:focus {
 }
 .features-bg .features {
   overflow: hidden;
+     text-align: center;
 }
 .features-bg .features img {
   width: 300px;
   height: auto;
-  float: left;
   margin-right: 15px;
 }
 .features-bg .features .features-in {
@@ -1719,7 +1719,7 @@ a:focus {
   border: 2px solid #aebcc7;
 }
 .pricing-bg .pricing img {
-  width: 60px;
+  width: 280px;
   height: auto;
   margin-bottom: 30px;
 }
