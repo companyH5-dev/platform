@@ -35,10 +35,10 @@
                             <a href="#clients">Clients</a>
                         </li> -->
             <li class="page-scroll">
-              <a href="#portfolio">选项目</a>
+              <a href="#portfolio"style="font-size:17px;font-weight:border;color: #fa3232;">选项目</a>
             </li>
             <li class="page-scroll">
-              <a href="#zijin">找资金</a>
+              <a href="#zijin" style="font-size:16px;font-weight:border;color: #f8e276;">找资金</a>
             </li>
             <li class="page-scroll">
               <a href="#about">新闻资讯</a>
