@@ -118,7 +118,7 @@
                 <h3 class="title-v2">有机P-N异质结</h3>
               </div>
               <div class="caption lft tp-resizeme" data-x="center" data-y="center" data-hoffset="-385" data-voffset="50" data-speed="900" data-start="1500" data-easing="easeOutExpo">
-                <p class="subtitle-v2">制备复合电极材料用于高效锂</p>
+                <p class="subtitle-v2">应用于光子回路集成的制备</p>
               </div>
 
               <div class="caption lfb tp-resizeme" data-x="right" data-y="bottom" data-hoffset="100" data-speed="900" data-start="2000" data-easing="easeOutExpo">
